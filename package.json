@@ -1,6 +1,6 @@
 {
   "name": "@sikandar-zameer/button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For demonstration purposes only",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -36,5 +36,8 @@
   },
   "peerDependencies": {
     "react": "^17.0.2"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
